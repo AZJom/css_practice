@@ -64,7 +64,7 @@ div {
 }
 
 .blue {
-  background-color: #0000FF;
+
   text-align: left;
   margin-right: 50px;
   border-right: 5px solid #FFFFFF;
@@ -73,7 +73,6 @@ div {
 }
 
 .blue h2 {
-  text-align: left;
   color: #C4C4C4; 
 }
 
