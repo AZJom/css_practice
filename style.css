@@ -1,9 +1,8 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Arial", "Verdana" ;
   background-color: #000000;
   color: #FFFFFF;
-  margin: 20px;
-  margin-bottom: 0;
+  margin: 20px 20px 0;
 }
 
 
@@ -11,7 +10,6 @@ h1 {
   font-size: 42px;
   text-align: center;
   padding: 15px;
-  color: #C4C4C4;
 }
 
 
@@ -42,18 +40,9 @@ div {
 
 .introduction {
   border-radius: 15px;
-  margin: 15px 0;
+  margin-top: 15px;
   line-height: 2;
 }
-
-
-.red, .blue, .yellow, .green {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
-}
-
 
 .red {
   background-color: #FF0000;
@@ -96,7 +85,6 @@ div {
 footer {
   background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
   border: 5px solid #FFFFFF;
-  padding: 15px 0 15px 15px;
 }
 
 footer p {
