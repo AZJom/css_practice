@@ -1,94 +1,71 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font color for the body */
 body {
-  font-family: "Arial", "Verdana" ;
-  background-color: #000000;
-  color: #FFFFFF;
-  margin: 20px 20px 0;
+    background-color: bisque;
+    color: #333; /* Dark gray font color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Line height for paragraphs */
 }
 
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+}
 
+/* Style the h1 tag */
 h1 {
-  font-size: 42px;
-  text-align: center;
-  padding: 15px;
+    font-size: 36px; /* New font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* New font family */
+    text-align: center; /* Center align */
 }
 
-
-h2 {
-  font-size: 30px;
-  color: #0D0D0D;
+/* Style the h2 and h3 tags */
+h2, h3 {
+    font-size: 24px; /* New font size */
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /* New font family */
+    color: #007acc; /* Blue font color */
 }
 
-
+/* Style the paragraph tags */
 p {
-  font-size: 24px;
-  padding: 10px 0 0 10px;
+    line-height: 1.6; /* Adjust line height as needed */
 }
 
-img {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-  border: 10px dashed #FFFFFF;
+/* Style the images */
+.image-container {
+    border: 5px solid #009688; /* 5px solid border with teal color */
+    padding: 10px; /* 10px padding */
+    margin: 20px; /* 20px margin */
+    border-top-right-radius: 30px; /* Border radius */
 }
 
-
-div {
-  min-height: 125px;
-  padding: 20px;
-  border: 3px solid #FFFFFF;
+/* Style the list items */
+ul {
+    list-style-type: none;
 }
 
-.introduction {
-  border-radius: 15px;
-  margin-top: 15px;
-  line-height: 2;
+li {
+    display: inline-block; /* Use inline-block display */
+    margin-left: 50px; /* 50px left margin */
 }
 
-.red {
-  background-color: #FF0000;
-  text-align: right;
-  margin-left: 50px;
-  border-bottom: 2px solid #FFFFFF;
-  border-left: 5px solid #FFFFFF;
+nav a {
+    background-color: burlywood;
+    padding: 5px;
+    margin: 20px;
 }
 
-.blue {
-  background-color: #0000FF;
-  text-align: left;
-  margin-right: 50px;
-  border-right: 5px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
-  color: #C4C4C4;
+a {
+    text-align: center;
 }
 
-.blue h2 {
-  color: #C4C4C4; 
-}
-
-.yellow {
-  background-color: #FFFF00;
-  text-align: right;
-  margin-left: 50px;
-  border-bottom: 2px solid #FFFFFF;
-  border-left: 5px solid #FFFFFF;
-  color: #707070;
-}
-
-.green {
-  background-color: #00EB00;
-  text-align: left;
-  margin-right: 50px;
-  border-right: 5px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
-}
-
-footer {
-  background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
-  border: 5px solid #FFFFFF;
-}
-
-footer p {
-  font-size: 20px;
-  text-align: right;
-  padding: 15px 15px 15px 0;
+#skip {
+    text-transform: uppercase;
 }
